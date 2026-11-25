@@ -1,0 +1,146 @@
+.about h1 {
+  max-width: 324px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  leading-trim: NONE;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+}
+.about-sec {
+  background-color: #fdd14c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about p {
+  padding-top: 20px;
+  max-width: 576px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #555555;
+}
+.about-img {
+  padding-top: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.fire2 {
+  text-align: center;
+}
+.fire2 a {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+.team-sc {
+  background-image: url("../images/IMAGE\ \(9\).png");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.team {
+}
+.team-cont {
+  max-width: 600px;
+  max-height: 300px;
+
+  background: #ffffff26;
+
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-radius: 20px;
+}
+.team-card {
+  display: flex;
+  gap: 50px;
+  padding: 10px 0px 10px 0px;
+}
+.team-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team h1 {
+  max-width: 716px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 64px;
+  leading-trim: NONE;
+  line-height: 74px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.team h2 {
+  max-width: 365px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.team-p {
+  text-align: center;
+  max-width: 512px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #dfdfdfcc;
+  padding-top: 10px;
+}
+.fire3 a {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+.future--tttgsdsgsdgsdgskjk;laf 
+
+/* resp;oobnsive */
+@media (max-width: 800px) {
+  .team-card {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1080px) {
+  .about-img {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

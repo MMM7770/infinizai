@@ -1,0 +1,140 @@
+.dark {
+  background-color: black;
+  border: none;
+}
+
+.dark * {
+  color: white !important;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 60px;
+}
+.nav-menu {
+  display: none;
+}
+.nav-list a {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: white;
+}
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(to left, #59b9ff 50%, #040404 50%);
+}
+.nav-btn {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 30px;
+  letter-spacing: 0%;
+  display: flex;
+  text-align: center;
+  gap: 25px;
+  background-color: transparent;
+  justify-content: center;
+  border-color: white;
+}
+.mode {
+  justify-content: center;
+  size: 30px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.home {
+  padding-top: 100px;
+  display: flex;
+}
+.home-right img {
+  max-width: 100%;
+}
+.home-left a {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+.home-left h1 {
+  max-width: 656px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 72px;
+  leading-trim: NONE;
+  line-height: 86px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: white;
+}
+.home-left p {
+  max-width: 615px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #999999;
+}
+.home-btn1 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  background: #57b8ff;
+  border: none;
+}
+.home-btn2 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0%;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+@media (max-width: 850px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+    background-color: greenyellow;
+  }
+}
+@media (max-width: 710px) {
+  .home {
+    flex-direction: column;
+    justify-content: center;
+  }
+  header {
+    background: linear-gradient(to top, #59b9ff 50%, #040404 50%);
+  }
+}
